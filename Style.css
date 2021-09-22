@@ -1,0 +1,17 @@
+body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+        
+        text-transform: uppercase;
+        border: 2px solid black;
+        background: whitesmoke;
+        color:black solid;
+        box-shadow: 1px 1px 2px black;
+        border-radius: 10px;
+        padding: 3px 10px;
+        cursor:pointer;
+}
+
+input{
+        border: 2px solid black;
+        border-radius: 5px;
+}

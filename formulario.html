@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Hero</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <form name="cadastro" method="POST" action="api.php?apicall=createhero">
+
+       
+
+        Nome
+        <input type="text" name="name"><br /><br />
+        Realname
+        <input type="text" name="realname"> <br />
+        <br />
+        Rating
+        <input type="text" name="rating"><br /><br />
+		teamaffiliation
+        <input type="text" name="teamaffiliation"> <br />
+        <br />
+
+    
+        <input type="submit" value="Enviar">
+        </form>
+<br />
+<br />
+        <form name="cadastro" method="POST" action="api.php?apicall=updatehero">
+
+            Id
+            <input type="text" name="id"><br /><br />
+
+            Nome
+            <input type="text" name="name"><br /><br />
+            Realnome
+            <input type="text" name="realname"> <br />
+            <br />
+            Rating
+            <input type="text" name="rating"><br /><br />
+            teamaffiliation
+            <input type="text" name="teamaffiliation"> <br />
+            <br />
+    
+        
+            <input type="submit" value="Enviar">
+            </form>
+
+            <br />
+<br />
+        <form name="cadastro"  method="GET" action="api.php">
+
+            Id
+            <input type="hidden" value="deletehero" name="apicall"><br /><br />
+            <input type="text" name="id"><br /><br />
+        
+    
+        
+            <input type="submit" value="Enviar">
+            </form>
+</body>
+</html>
